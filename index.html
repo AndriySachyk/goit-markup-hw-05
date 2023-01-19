@@ -13,14 +13,13 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    
-    
+
     <header>
         <div class="container page-header-container">
             <a class="logo-header " href="index.html"> <span class="logo-web">Web</span>studio</a>
             <nav>
                 <ul class="page-header-nav">
-                    <li class="menu-item"><a class="nav-link-header" href="index.html">Studio</a></li>
+                    <li class="menu-item"><a class="nav-link-header current" href="index.html">Studio</a></li>
                     <li class="menu-item"><a class="nav-link-header" href="portfolio.html">Portfolio</a></li>
                     <li class="menu-item"><a class="nav-link-header" href="#">Contacts</a></li>
                 </ul>
@@ -36,7 +35,7 @@
         <section class="section-title ">
             <div class="container title-container">
             <h1 class="title">Effective Solutions for Your Business</h1>
-            <button class="button-index" type="button">Order Service</button>
+            <button class="button-index" type="button" data-modal-open>Order Service</button>
             </div>
         </section>
         <section class="section-features">
@@ -333,5 +332,15 @@
     </footer>
 
 
+<div class="backdrop" data-modal>
+    <div class="model">
+        <button type="button" class="modal-close-bth" data-modal-close>
+            <svg class="icon-close-model-bth" width="8" height="8" >
+                <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
+        </button>
+    </div>
+</div>
+<script src="./js/modal.js"></script>
 </body>
 </html>
