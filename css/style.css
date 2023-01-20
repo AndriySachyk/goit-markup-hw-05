@@ -163,7 +163,6 @@ ul,ol{
     position: absolute;
     bottom: 0;
     display: block;
-    transform: translateY(-100%);
     content: '';
     display: block;
     width: 100%;
@@ -689,8 +688,8 @@ margin-bottom: 8px;
 }
 
 
-.box-border-content-photo-portfolio:hover,.box-border-content-photo-portfolio:focus,.box-border-content-photo-portfolio:active{
-    
+
+.box-photo-portfolio:hover .box-border-content-photo-portfolio, .box-photo-portfolio:focus .box-border-content-photo-portfolio{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
